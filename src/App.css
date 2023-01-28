@@ -1,19 +1,134 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #151950;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.sign-in-page{
+    /* background-image:url('./assets/logo/data.jpg'); */
+    /* background-image:url('./assets/logo/Capture.PNG');  */
+    background-size:contain;
+  
+  }
+  
+  .sign-in-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px ;
+    padding-top: 50px ;
+   
+  }
+  
+  
+  .logo-wrapper{
+    padding:6px;
+  }
+  
+  .logo {
+    height: 30px;
+    width: 270px;
+    padding:5px;
+    align-items:center;
+    vertical-align: middle;
+  }
+  
+  .banner {
+   
+    color:#2727BE;
+    font-weight: 300;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top:10px
+  }
+  
+  .account {
+    position: relative;
+    left: 31.5px;
+    margin:32px 0px 32px 0px;
+    font-size: 14px;
+  
+  }
+  
+  .account>a {
+    margin-left: 16px;
+    color:#0058E9;
+  }
+  
+  .continue-with-wrapper {
+    display: inline-flex;
+    margin-bottom:16px;
+    margin-top: 16px;
+  
+  }
+  .continue-with-wrapper>span{
+    position: static;
+    color: #8F8F8F;       
+    font-size: 14px;
+    line-height: 20px;
+    
+  }
+  
+  
+  .sign-button {
+    height: 30px;
+    width: 270px;
+   
+  }
+  
+  .sign-button:hover  {
+  }
+  
+  .dashboard-button {
+    text-decoration: none;
+  }
+  
+  .social-wrapper {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .facebook {
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    background: rgba(66, 66, 66, 0.04);
+    border-radius: 2px;
+  
+  }
+  
+  .twitter {
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    background: rgba(66, 66, 66, 0.04);
+    border-radius: 2px;
+  
+  }
+  
+  .reddit{
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    background: rgba(66, 66, 66, 0.04);
+    border-radius: 2px;
+  }
+  
+  
+  
