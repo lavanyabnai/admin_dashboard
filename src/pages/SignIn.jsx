@@ -8,18 +8,20 @@ export const SignIn = () => {
   const [paswordType] = React.useState("password");
   return (
     <div className="App">
-      <div className="relative h-screen flex">
-        <div className="flex flex-col justify-center items-center h-screen min-w-fit w-2/5 z-0 bg-[#352a87] border-r-4 border-[ #352a87] ">
+      <div className="relative h-screen flex flex-row-reverse overflow-x-auto mx-auto">
+
+        <div className="flex flex-col justify-center items-center h-screen min-w-[600px] w-2/5 z-10 bg-bg-blue border-r-4 border-bg-blue sm:w-2/5">
           <div className="w-64">
-            <div className="w-72">
+            <div className="w-72 ">
               <img
                 src={require("../assets/logo/logo-white.png")}
                 alt={"sign in icon"}
               />
             </div>
             <div className="flex flex-col h-16 text-6xl text-white font-light mt-8 justify-items-center items-center">Sign In</div>
-            <div className=" text-white relative h-5 left-8 my-8">
-              Don't have an account? <Link className=" text-sky-500 ml-4 hover:text-white" to="/signup">Sign up</Link>
+
+            <div className="text-white relative h-5 left-8 my-8 sm:flex-row">
+              Don't have an account? <Link className=" text-blue-aqua text-lg ml-4 hover:text-white " to="/signup">Sign up</Link>
             </div>
           </div>
           <div className="flex items-center">
@@ -60,7 +62,7 @@ export const SignIn = () => {
                       className="dashboard-button"
                       style={{ textDecoration: "none" }}
                     >
-                      <button type={"submit"} className="h-8 w-64 bg-[#0dcaf0] text-black rounded hover:bg-white">
+                      <button type={"submit"} className="sign-button h-8 w-64 bg-blue-aqua text-black rounded hover:bg-white">
                         Sign In
                       </button>
                     </Link>
@@ -70,7 +72,7 @@ export const SignIn = () => {
             />
           </div>
         </div>
-        <div className="h-screen w-screen m-auto "></div>
+        <div className="frame-wrapper h-screen w-screen m-auto "></div>
       </div>
     </div>
   );

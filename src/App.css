@@ -27,8 +27,8 @@ div.k-form-field:nth-child(3) {
 .frame-wrapper {
 background-image:url('./assets/bg/data-science-1.png');  
 /* background-image:url('./assets/bg/Capture.PNG');    */
-background-position-y: center;
-background-size:contain;
+/*background-position-y: center;*/
+background-size:cover;
 background-repeat: no-repeat;
 border-left:1px;
 }
@@ -38,4 +38,9 @@ border-left:1px;
   margin-left: 245px;
   margin-top: 28px;
   color: gray;
+}
+@media (max-width: 800px) {
+  .frame-wrapper {
+    display: none;
+  }
 }
